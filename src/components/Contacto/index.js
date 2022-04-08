@@ -26,7 +26,7 @@ const Contacto = () => {
                         <h4 className='fs-4 my-3'>HORARIOS DE ATENCION</h4>
                         <p className='text-center fs-5 display-6 pt-5'>Lunes a Viernes</p>
                         <p className='text-center fs-5 display-6 text-success'>9:00 - 20:30</p>
-                        <p className='text-center fs-5 display-6 pt-5'>Sabados</p>
+                        <p className='text-center fs-5 display-6 pt-5 s'>Sabados</p>
                         <p className='text-center fs-5 display-6 text-success'>9:00 - 13:30</p>
                     </div>
                 </div>
