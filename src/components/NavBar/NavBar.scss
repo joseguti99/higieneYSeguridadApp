@@ -1,0 +1,69 @@
+.navbarLink{
+    text-decoration: none !important;
+    margin: 15px !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    color: white !important;
+    letter-spacing: 1px !important;
+
+    &:hover{
+    border-bottom: 3px solid yellow !important;
+    color: yellow !important;
+    text-decoration: none;
+    }
+}
+
+.activeNav{
+    font-size: 20px !important;
+    text-decoration: none;
+    text-decoration: none !important;
+    border-bottom: 3px solid yellow !important;
+    color: yellow !important;
+    margin: 15px !important;
+    letter-spacing: 1px !important;
+} 
+
+.icon-whatsApp{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.dropLink{
+    text-decoration: none !important;
+    margin: 15px !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    color: white !important;
+    letter-spacing: 1px !important;
+
+    &:hover{
+    border-bottom: 3px solid yellow !important;
+    color: yellow !important;
+    text-decoration: none;
+    }
+}
+
+.dd-item{
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    color: white;
+    text-align: inherit;
+    text-decoration: none !important;
+    white-space: nowrap;
+    border: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &:hover{
+        background-color: yellow;
+        color: black;
+    }
+    &:active{
+        text-decoration: none !important;
+        color: white;
+    }
+}

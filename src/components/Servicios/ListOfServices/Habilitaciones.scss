@@ -1,0 +1,48 @@
+.h-habilitacion{
+    height: 100%;
+}
+
+.title-habilitacion{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+.SubTitle-Hab{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+.description-habilitacion{
+    margin: 15px;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+.li-hab{
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    &:hover{
+        color: red;
+    }
+}
+
+.icon-hab{
+    color: red;
+    font-size: 25px;
+}
+
+.bg-card{
+    // background-color: rgba(255, 255, 0, 0.336);
+}
