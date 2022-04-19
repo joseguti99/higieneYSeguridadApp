@@ -40,7 +40,7 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0 justify-content-end">
-              <NavLink to="/" 
+              <NavLink to="/higieneYSeguridadApp" 
               className={({ isActive }) => isActive ? 'activeNav' : 'navbarLink'}
               onClick={scrollTop}>
                 <li>

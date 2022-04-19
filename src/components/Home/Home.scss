@@ -50,3 +50,29 @@
 .bg-gray{
     background-color:#e5e5e5ce;
 }
+
+.container-flex{
+    display: flex;
+}
+.container-img{
+    display: flex;
+    width: 100%;
+    height: 78vh;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        height: 40vh;
+    }
+}
+.img-flex{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.gMaps{
+    width: 100%;
+    height: 300px
+}
+.font-contact{
+    font-size: 30px;
+    font-weight: bold;
+}

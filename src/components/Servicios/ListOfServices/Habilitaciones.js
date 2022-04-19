@@ -1,13 +1,13 @@
 import React from 'react'
 import { AiOutlineLink } from "react-icons/ai";
-
+import Contacto from '../../Contacto';
 const Habilitaciones = () => {
   return (
     <>
       <div className='container-fluid'>
         <div className='row bg-white'>
           <div className='col-12 h-habilitacion'>
-            <h2 className='title-habilitacion'>HABILITACIONES</h2>
+            <h2 className='title-habilitacion'>Habilitaciones</h2>
             <p className='description-habilitacion text-center'>Solicitar una habilitacion consta de tres pasos en los que se desarrollan: </p>
             <div className='row justify-content-center'>
               <div className='col-9 rounded bg-card my-5'>
@@ -46,6 +46,8 @@ const Habilitaciones = () => {
             </div>
           </div>
         </div>
+        <div className='container-fluid bg-space'></div>
+        <Contacto/>
       </>
       )
 }

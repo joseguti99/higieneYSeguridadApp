@@ -16,7 +16,6 @@ const InformesHigieneySeguridad = () => {
                 nivel de riesgo y los distintos sistemas de protección
                 contra incendios donde se realiza la verificación de
                 las condiciones de situación, construcción y extinción.</p>
-  
               <p className='description-informe'>Dicho Manual Incluye: </p>
               <ul className='list-unstyled'>
                 <li className='li-informe'><AiOutlineLink className='icon-clip'/> Manual de autoprotección.</li>
