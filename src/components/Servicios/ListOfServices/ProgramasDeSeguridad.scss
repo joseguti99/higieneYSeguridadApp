@@ -1,16 +1,32 @@
+.h-programaSeguridad{
+    height: 80vh;
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        height: 65rem;
+    }   
+}
+
 .programaSeguridadTitle{
     text-align: center;
     margin-top: 100px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color:red;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 40px;
+        margin-top: 70px;
+    }
 }
 
 .description-Seguridad{
     margin-top: 50px;
     text-align: justify;
     font-size: 28px;
-}
 
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 20px;
+        margin-top: 10px !important;
+    }
+}

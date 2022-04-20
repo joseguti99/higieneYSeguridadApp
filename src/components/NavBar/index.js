@@ -1,100 +1,142 @@
-import React from 'react';
-import { BsHouseFill, BsFillPeopleFill, BsFillPersonBadgeFill, BsFillTelephoneFill } from "react-icons/bs";
+import React from "react";
+import {
+  BsHouseFill,
+  BsFillPeopleFill,
+  BsFillPersonBadgeFill,
+  BsFillTelephoneFill,
+} from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { useState, useEffect } from 'react'
-import { Spinner } from 'react-bootstrap'
-import ListOfServices from '../../ListOfServices.json'
+import { useState, useEffect } from "react";
+import { Spinner } from "react-bootstrap";
+import ListOfServices from "../../ListOfServices.json";
 
 const NavBar = () => {
-  const [services, setServices] = useState([])
-  const [scroll, setScroll] = useState(true)
+  const [services, setServices] = useState([]);
+  const [scroll, setScroll] = useState(true);
 
-    const scrollTop = () => {
-      window.scrollTo(0, 0);
-    }
+  const scrollTop = () => {
+    window.scrollTo(0, 0);
+  };
 
-    const scrollBottom = () => {
-      window.scrollTo(0, 5000);
-    }
+  const scrollBottom = () => {
+    window.scrollTo(0, 5000);
+  };
 
-    useEffect(() => {
-        const data = [...ListOfServices]
-        setServices(data)
-    }, [])
+  useEffect(() => {
+    const data = [...ListOfServices];
+    setServices(data);
+  }, []);
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-danger fixed-top">
-        <div className="container-fluid">
-          <a className="navbar-brand font-home">Soluciones Higiene y Seguridad</a>
-          <button className="navbar-toggler font-link"
+      <nav class="navbar navbar-expand-lg navbar-danger bg-danger fixed-top">
+        <div class="container-fluid justify-content-end">
+          <NavLink
+            to="/higieneYSeguridadApp"
+            className="font-home navbar-brand"
+            onClick={scrollTop}
+          >
+            Soluciones Higiene y Seguridad
+          </NavLink>
+
+          <button
+            className="navbar-toggler ms-auto font-link"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
             aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"><FiMenu /></span>
+            aria-label="Toggle navigation"
+          >
+            <span>
+              <FiMenu />
+            </span>
           </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul className="navbar-nav mb-2 mb-lg-0 justify-content-end">
-              <NavLink to="/higieneYSeguridadApp" 
-              className={({ isActive }) => isActive ? 'activeNav' : 'navbarLink'}
-              onClick={scrollTop}>
-                <li>
-                  <BsHouseFill className='mb-2' /> Inicio
+
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarTogglerDemo03"
+          >
+            <ul className="navbar-nav mb-2 mb-lg-0 mb-2 justify-content-end">
+              <NavLink
+                to="/higieneYSeguridadApp"
+                onClick={scrollTop}
+                className={({ isActive }) =>
+                  isActive ? "activeNav" : "navbarLink"
+                }
+              >
+                <li className="nav-item">
+                  <BsHouseFill className="mb-2" /> Inicio
                 </li>
               </NavLink>
-              <li className='nav-item dropdown'>
-                  <div className="dropdown">
-                    <a className="dropLink"
-                      type="button"
-                      id="dropdownMenuButton1"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      <BsFillPeopleFill className='mb-2' /> Servicios
-                    </a>
-                    <ul class="dropdown-menu bg-danger border border-danger"
-                      aria-labelledby="dropdownMenuButton1">
-                      {services.length
-                        ? services.map((data) =>
-                        <li><NavLink  to={`/servicios/${data.route}`}
-                                      onClick={scrollTop}
-                                      className="dd-item"
-                                      key={data.id}><a>{data.title}</a>
-                            </NavLink>
+
+              <li className="nav-item dropdown">
+                <div className="dropdown">
+                  <a
+                    className="dropLink"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded={false}
+                  >
+                    <BsFillPeopleFill className="mb-2" /> Servicios
+                  </a>
+                  <ul
+                    class="dropdown-menu bg-danger border border-danger"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    {services.length ? (
+                      services.map((data) => (
+                        <li>
+                          <NavLink
+                            to={`/servicios/${data.route}`}
+                            onClick={scrollTop}
+                            className="dd-item"
+                            key={data.id}
+                          >
+                            <a>{data.title}</a>
+                          </NavLink>
                         </li>
-                        )
-                        :<div className='container-fluid'>
-                            <div className='row text-center'>
-                                <Spinner animation="border"/>
-                            </div>
+                      ))
+                    ) : (
+                      <div className="container-fluid">
+                        <div className="row text-center">
+                          <Spinner animation="border" />
                         </div>
-                    }
-                    </ul>
-                  </div>
-                </li>
-              <a id="dropdownMenuButton" 
-              data-toggle="dropdown" 
-              aria-haspopup="true" 
-              aria-expanded="false"
-              className='navbarLink dropdown'
-              onClick={scrollBottom}>
+                      </div>
+                    )}
+                  </ul>
+                </div>
+              </li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                className="navbarLink dropdown"
+                onClick={scrollBottom}
+              >
                 <li>
-                  <BsFillPersonBadgeFill className='mb-2' /> Contacto
+                  <BsFillPersonBadgeFill className="mb-2" /> Contacto
                 </li>
               </a>
-              <a className="navbarLink" href='https://api.whatsapp.com/send/?phone=5493513985637&text&app_absent=0' target="_blank">
-                <IoLogoWhatsapp className='icon-whatsApp' />Llamar Ahora
+              <a
+                className="navbarLink"
+                href="https://api.whatsapp.com/send/?phone=5493513985637&text&app_absent=0"
+                target="_blank"
+              >
+                <IoLogoWhatsapp className="icon-whatsApp" />
+                Llamar Ahora
               </a>
             </ul>
           </div>
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
 export default NavBar;

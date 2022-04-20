@@ -6,14 +6,31 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color:red;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 40px;
+        margin-top: 80px;
+    }
 }
+
 .description-ergonomia{
     margin-top: 75px;
     text-align: justify;
     font-size: 28px;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
+
 .li-ergonomia{
     margin: 20px;
     text-align: justify;
     font-size: 28px;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 20px;
+        margin: 25px;
+    }
 }

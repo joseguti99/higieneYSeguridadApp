@@ -10,6 +10,11 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color:red;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 40px;
+        margin-top: 80px;
+    }
 }
 
 .SubTitle-Hab{
@@ -20,29 +25,42 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color:red;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 35px;
+        margin-top: 10px;
+    }
 }
 
 .description-habilitacion{
     margin: 15px;
     font-size: 25px;
     word-spacing: 5px;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 20px !important;
+        margin-top: 30px !important;
+        word-spacing: 0px;
+        text-align: center;
+    }
+
 }
 
 .li-hab{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     cursor: pointer;
 
     &:hover{
         color: red;
     }
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 18px;
+    }
 }
 
 .icon-hab{
     color: red;
     font-size: 25px;
-}
-
-.bg-card{
-    // background-color: rgba(255, 255, 0, 0.336);
 }

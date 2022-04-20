@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter basename='/'>
-      <NavBar/>
         <Routes>
           <Route exact={true} path="/higieneYSeguridadApp" element={<Home/>} />
           <Route exact={true} path="/servicios/Informes-Tecnicos" element={<InformesHigieneYSeguridad/>}/>

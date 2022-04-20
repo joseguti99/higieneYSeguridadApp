@@ -1,13 +1,15 @@
 import React from 'react'
 import { AiOutlineLink } from "react-icons/ai";
 import Contacto from "../../Contacto"
+import NavBar from '../../NavBar';
 
 const InformesHigieneySeguridad = () => {
   return (
       <>
+      <NavBar/>
         <div className='container'>
           <div className='row'>
-            <div className='col-12 h-informe '>
+            <div className='col-12 h-informe'>
               <h2 className='title-Informe'>Informes de Higiene Y Seguridad</h2>
               <p className='description-informe'>El informe tecnico de Higiene y Seguridad es un 
                 relevamiento del establecimiento que consiste en 

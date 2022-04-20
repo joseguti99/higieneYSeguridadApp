@@ -1,3 +1,7 @@
+.h-mediciones{
+    height: 100vh;
+}
+
 .medicionTitle{
     text-align: center;
     margin-top: 100px;
@@ -6,10 +10,23 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color:red;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 40px;
+        margin-top: 80px;
+    }
 }
 
 .description-medicion{
-    margin-top: 50px;
+    margin: 15px;
+    font-size: 25px;
+    word-spacing: 5px;
     text-align: justify;
-    font-size: 28px;
+    margin-top: 20px;
+
+    @media screen and (min-width: 350px) and (max-width: 992px){
+        font-size: 20px !important;
+        margin-top: 30px !important;
+        word-spacing: 0px;
+    }
 }

@@ -1,12 +1,15 @@
 import React from 'react'
+import Contacto from "../../Contacto"
+import NavBar from '../../NavBar'
 
 const MedicionDeRuidos = () => {
   return (
     <>
-      <div className='container bg-white'>
+    <NavBar/>
+      <div className='container bg-white h-mediciones'>
         <div className='row'>
           <div className='col-12'>
-          <h1 className='medicionTitle'>MEDICIONES DE RUIDO</h1>
+          <h1 className='medicionTitle'>Mediciones De Ruido</h1>
           </div>
           <div className='col-12'>
             <p className='description-medicion'>El ruido es uno de los contaminantes laborales más comunes. 
@@ -21,6 +24,8 @@ const MedicionDeRuidos = () => {
           </div>
         </div>
       </div>
+      <div className='container-fluid bg-space'></div>
+        <Contacto/>
     </>
   )
 }

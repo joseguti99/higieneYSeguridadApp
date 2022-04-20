@@ -1,15 +1,17 @@
 import React from 'react'
 import Contacto from "../../Contacto"
+import NavBar from '../../NavBar'
 
 const ProgramasDeSeguridad = () => {
   return (
     <>
-      <div className='container-fluid bg-white h-title'>
-        <div className='row justify-content-center'>
-          <div className='col-12'>
+    <NavBar/>
+      <div className='container-fluid bg-white'>
+        <div className='row justify-content-center h-programaSeguridad'>
+          <div className='col-12 col-lg-10'>
             <h1 className='programaSeguridadTitle'>Programas De Seguridad</h1>
           </div>
-          <div className='col-10 text-center'>
+          <div className='col-10 col-lg-10 text-center'>
             <p className='description-Seguridad'>Es un documento que pretende instrumentar las acciones necesarias y suficientes 
               para que la prevención, la higiene y la seguridad sean actividades integradas a 
               las tareas que cada trabajador de la empresa desarrolle en la obra, concretando 
@@ -21,7 +23,7 @@ const ProgramasDeSeguridad = () => {
               que las mismas se realicen sin causar daños a las personas y a los bienes de la 
               Empresa.
             </p>
-            <p className='description-Seguridad'>
+            <p className='description-Seguridad pb'>
               Confeccionado con las normas que establece la Resolución 51/97 y 35/98 de la 
               Superintendencia de Riesgos de Trabajo. 
             </p>

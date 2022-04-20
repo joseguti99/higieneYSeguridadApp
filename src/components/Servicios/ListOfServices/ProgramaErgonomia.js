@@ -1,25 +1,29 @@
 import React from 'react'
 import Contacto from '../../Contacto'
-
+import NavBar from '../../NavBar'
 const ProgramaErgonomia = () => {
   return (
     <>
+    <NavBar/>
       <div className='container-fluid bg-white'>
         <div className='row justify-content-center'>
-          <div className='col-12'>
+          <div className='col-12 col-lg-12'>
             <h1 className='ergonomiaTitle'>Programa de Ergonomia Integrado</h1>
           </div>
-          <div className='col-10'>
+          <div className='col-11 col-lg-10'>
             <p className='description-ergonomia'>Según lo establecido en la Resolución MTESS Nº 295/03 Anexo I,
               se establece para los factores de riesgo ergonómico la implementación
               de las correspondientes “Estrategias de control” de acuerdo al nivel
-              de riesgo identificado en los puestos de trabajo. Definido el riesgo
-              ergonómico por sus causales (agentes de riesgo) y por sus consecuencias
-              sobre la salud (trastornos músculo-esqueléticos), la Resolución 295/03
-              en su anexo I, plantea una estrategia de control del riesgo, que denomina
-              “Programa de Ergonomía Integrado” (P.E.I.).</p>
+              de riesgo identificado en los puestos de trabajo.</p>
+              <p className='description-ergonomia'>
+                Definido el riesgo
+                ergonómico por sus causales (agentes de riesgo) y por sus consecuencias
+                sobre la salud (trastornos músculo-esqueléticos), la Resolución 295/03
+                en su anexo I, plantea una estrategia de control del riesgo, que denomina
+                “Programa de Ergonomía Integrado” (P.E.I.).
+              </p>
           </div>
-          <div className='col-10'>
+          <div className='col-12 col-lg-10'>
             <ul>
               <li className='li-ergonomia'>Reconocimiento del problema.</li>
               <li className='li-ergonomia'>Evaluación de los trabajos con sospecha de posibles factores de riesgo.</li>
