@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename='/'>
         <Routes>
-          <Route exact={true} path="/higieneYSeguridadApp" element={<Home/>} />
+          <Route exact={true} path="/" element={<Home/>} />
           <Route exact={true} path="/servicios/Informes-Tecnicos" element={<InformesHigieneYSeguridad/>}/>
           <Route exact={true} path="/servicios/Habilitaciones" element={<Habilitaciones/>}/>
           <Route exact={true} path="/servicios/Programa-de-Seguridad" element={<ProgramasDeSecuridad/>}/>
@@ -31,6 +31,7 @@ function App() {
           <Route exact={true} path="/servicios/Prevenciones-de-ART" element={<PrevencionesART/>}/>
           <Route exact={true} path="/servicios/Habilitacion-de-Bomberos" element={<HabilitacionBomberos/>}/>
           <Route exact={true} path="/servicios/Medicion-de-Ruidos" element={<MedicionDeRuidos/>}/>
+          <Route path="*" element={<Home/>}/>
         </Routes>
       </BrowserRouter>
     </div>

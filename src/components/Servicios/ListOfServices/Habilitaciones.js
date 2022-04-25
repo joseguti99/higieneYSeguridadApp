@@ -10,7 +10,7 @@ const Habilitaciones = () => {
         <div className='row bg-white'>
           <div className='col-12 col-lg-12 h-habilitacion'>
             <h2 className='title-habilitacion'>Habilitaciones</h2>
-            <p className='description-habilitacion text-center'>Solicitar una habilitacion consta de tres pasos en los que se desarrollan: </p>
+            <p className='description-habilitacion text-center'>Solicitar una habilitación consta de tres pasos en los que se desarrollan: </p>
             <div className='row justify-content-center'>
               <div className='col-11 col-lg-10 rounded'>
                 <h3 className='SubTitle-Hab'>Prefactibilidad</h3>

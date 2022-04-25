@@ -32,17 +32,17 @@
     {
         "id": "6",
         "title": "Farmacia el fenix",
-        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/FARMCIAFENIX.png?raw=true"
+        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/F-FENIX.png?raw=true"
     },
     {
         "id": "7",
         "title": "GLMADERAS",
-        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/GLMADERAS.png?raw=true"
+        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/GL-MADERAS.png?raw=true"
     },
     {
         "id": "8",
         "title": "Yiya Muebles",
-        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/YIYASRL.png?raw=true"
+        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/YIYA.png?raw=true"
     },
     {
         "id": "9",
@@ -52,7 +52,7 @@
     {
         "id": "10",
         "title": "Metal G S.A",
-        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/METALG.jpg?raw=true"
+        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/METAL-G.png?raw=true"
     },
     {
         "id": "11",
@@ -97,6 +97,12 @@
     {
         "id": "19",
         "title": "Marchegiani",
-        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/MARCHEGIANI.png?raw=true"
+        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/marche.png?raw=true"
+    },
+    {
+        "id": "20",
+        "title": "La Veta Maderas",
+        "url": "https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/LAVETA.png?raw=true"
     }
+    
 ]

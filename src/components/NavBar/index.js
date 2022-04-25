@@ -34,11 +34,11 @@ const NavBar = () => {
       <nav class="navbar navbar-expand-lg navbar-danger bg-danger fixed-top">
         <div class="container-fluid justify-content-end">
           <NavLink
-            to="/higieneYSeguridadApp"
-            className="font-home navbar-brand"
+            to="/"
+            className="navbar-brand"
             onClick={scrollTop}
           >
-            Soluciones Higiene y Seguridad
+            <img src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/SVG%20HIGIENE%20Y%20SEGURIDAD@2x%20(2).png?raw=true" />
           </NavLink>
 
           <button

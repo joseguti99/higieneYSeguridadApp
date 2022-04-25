@@ -1,3 +1,8 @@
+// @font-face {
+//     font-family: 'Beau Rivage', cursive;
+//     src: url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap')
+// }
+
 .navbarLink{
     text-decoration: none !important;
     margin: 15px !important;
@@ -65,5 +70,16 @@
     &:active{
         text-decoration: none !important;
         color: white;
+    }
+}
+
+.logoNav{
+    @import 'https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap';
+    font-family: 'Beau Rivage';
+    color: black;
+    background-color: white;
+    text-align: center;
+    &:hover{
+        color: red
     }
 }

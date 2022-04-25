@@ -19,19 +19,19 @@ const Home = () => {
       <header>
         <div className='container-fluid bg-white shadow'>
           <div className='row h-header justify-content-center'>
-            <div className='col-12 col-lg-4'>
+            <div className='col-12 col-md-12 col-md-7 col-lg-6 col-xl-6'>
               <h1 className='fontName'>Viviana Loza</h1>
               <h2 className='lic-hys'>LIC. EN HIGIENE Y SEGURIDAD</h2>
               <p className='font-description'>
-                Servicio de higiene y seguridad, asesoramiento, informes tecnicos, planos de evacuacion, capacitaciones.
+                Servicio de higiene y seguridad, asesoramiento, informes técnicos, planos de evacuación, capacitaciones.
               </p>
             </div>
-            <div className='col-12 col-lg-7 text-center my-5'>
-              <img className='col-lg-2 wh-img m-2' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/Rectangle%201.svg' />
-              <img className='col-lg-2 wh-img m-2' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/casco%201.svg' />
-              <img className='col-lg-2 wh-img m-2' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/electricidad%201.svg' />
-              <img className='col-lg-2 wh-img m-2' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/extintor%201.svg' />
-              <img className='col-lg-2 wh-img m-2' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/ingreso%201.svg' />
+            <div className='col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-6 text-center my-5'>
+              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/electricidad%201.svg' />
+              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/casco%201.svg' />
+              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/extintor%201.svg' />
+              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/Rectangle%201.svg' />
+              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/ingreso%201.svg' />
             </div>
           </div>
         </div>
@@ -55,11 +55,11 @@ const Home = () => {
       </div>
       <div className='container-fluid bg-space'></div>
       <div className='container-fluid ms-auto shadow'>
-        <div className='row justify-content-center py-5'>
-          <h5 className='font-clients my-4 text-center justify-content-center'>Nuestros Clientes</h5>
-          <Carrousel/>
+        <div className='row justify-content-center'>
+          <h5 className='font-clients my-4 text-center justify-content-center'>Algunos de Nuestros Clientes</h5>
         </div>
       </div>
+      <Carrousel/>
       <div className='container-fluid bg-space'></div>
       <Contacto/>
     </>
