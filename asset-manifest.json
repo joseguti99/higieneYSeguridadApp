@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/higieneYSeguridadApp/static/css/main.643ab47b.css",
-    "main.js": "/higieneYSeguridadApp/static/js/main.88ae621d.js",
+    "main.css": "/higieneYSeguridadApp/static/css/main.b659b749.css",
+    "main.js": "/higieneYSeguridadApp/static/js/main.82da9a43.js",
     "static/js/787.2c737169.chunk.js": "/higieneYSeguridadApp/static/js/787.2c737169.chunk.js",
     "index.html": "/higieneYSeguridadApp/index.html",
-    "main.643ab47b.css.map": "/higieneYSeguridadApp/static/css/main.643ab47b.css.map",
-    "main.88ae621d.js.map": "/higieneYSeguridadApp/static/js/main.88ae621d.js.map",
+    "main.b659b749.css.map": "/higieneYSeguridadApp/static/css/main.b659b749.css.map",
+    "main.82da9a43.js.map": "/higieneYSeguridadApp/static/js/main.82da9a43.js.map",
     "787.2c737169.chunk.js.map": "/higieneYSeguridadApp/static/js/787.2c737169.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.643ab47b.css",
-    "static/js/main.88ae621d.js"
+    "static/css/main.b659b749.css",
+    "static/js/main.82da9a43.js"
   ]
 }
