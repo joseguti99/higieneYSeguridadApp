@@ -13,7 +13,7 @@ const Home = () => {
       <NavBar />
       <div className='container-flex'>
         <div className='container-img'>
-          <img className="img-flex" src='https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/hys-solutions-png.jpg?raw=true'/>
+          <img className="img-flex" alt="fondo de pantalla hombre con casco de trabajo" src='https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/hys-solutions-png.jpg?raw=true'/>
         </div>
       </div>
       <header>
@@ -27,11 +27,11 @@ const Home = () => {
               </p>
             </div>
             <div className='col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-6 text-center my-5'>
-              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/electricidad%201.svg' />
-              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/casco%201.svg' />
-              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/extintor%201.svg' />
-              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/Rectangle%201.svg' />
-              <img className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/ingreso%201.svg' />
+              <img alt="cartel peligro riesgo electrico" className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/electricidad%201.svg' />
+              <img alt="cartel uso obligatorio de casco" className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/casco%201.svg' />
+              <img alt="cartel extintor de fuego" className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/extintor%201.svg' />
+              <img alt="cartel salida de emergencia" className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/Rectangle%201.svg' />
+              <img alt="cartel prohibido el ingreso" className='col-2 col-md-1 col-lg-1 col-xl-1 m-md-0 m-lg-1 wh-img' src='https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/1df0b277eaef6cbcfca7e5c0c9a1f26622bce18b/higiene-seguridad-app/ingreso%201.svg' />
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Home = () => {
             ?
             DBservices.map((data, index) =>
               <div className='col-12 col-lg-5 m-5 text-center border-card' key={data.id}>
-                <img src={data.logo} className='w-25 my-3' />
+                <img src={data.logo} className='w-25 my-3' alt={data.alt}/>
                 <h6 className='card-title my-3'>{data.Title}</h6>
                 <p className='fs-4'>{data.description}</p>
               </div>)

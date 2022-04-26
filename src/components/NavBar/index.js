@@ -31,14 +31,14 @@ const NavBar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-danger bg-danger fixed-top">
-        <div class="container-fluid justify-content-end">
+      <nav className="navbar navbar-expand-lg navbar-danger bg-danger fixed-top">
+        <div className="container-fluid justify-content-end">
           <NavLink
             to="/"
             className="navbar-brand"
             onClick={scrollTop}
           >
-            <img src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/SVG%20HIGIENE%20Y%20SEGURIDAD@2x%20(2).png?raw=true" />
+            <img alt="logo de licenciada higiene y seguridad" src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/SVG%20HIGIENE%20Y%20SEGURIDAD@2x%20(2).png?raw=true" />
           </NavLink>
 
           <button
@@ -74,7 +74,7 @@ const NavBar = () => {
 
               <li className="nav-item dropdown">
                 <div className="dropdown">
-                  <a
+                  <p
                     className="dropLink"
                     type="button"
                     id="dropdownMenuButton1"
@@ -82,21 +82,21 @@ const NavBar = () => {
                     aria-expanded={false}
                   >
                     <BsFillPeopleFill className="mb-2" /> Servicios
-                  </a>
+                  </p>
                   <ul
-                    class="dropdown-menu bg-danger border border-danger"
+                    className="dropdown-menu bg-danger border border-danger"
                     aria-labelledby="dropdownMenuButton1"
                   >
                     {services.length ? (
-                      services.map((data) => (
-                        <li>
+                      services.map((data, index) => (
+                        <li key={index}>
                           <NavLink
                             to={`/servicios/${data.route}`}
                             onClick={scrollTop}
                             className="dd-item"
                             key={data.id}
                           >
-                            <a>{data.title}</a>
+                            <p>{data.title}</p>
                           </NavLink>
                         </li>
                       ))
@@ -110,7 +110,7 @@ const NavBar = () => {
                   </ul>
                 </div>
               </li>
-              <a
+              <p
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown"
@@ -122,7 +122,7 @@ const NavBar = () => {
                 <li>
                   <BsFillPersonBadgeFill className="mb-2" /> Contacto
                 </li>
-              </a>
+              </p>
               <a
                 className="navbarLink"
                 href="https://api.whatsapp.com/send/?phone=5493513985637&text&app_absent=0"

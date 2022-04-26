@@ -33,7 +33,7 @@ const Contacto = () => {
                         </p>
                     </div>
                     <div className='col-12 col-lg-3 text-center justify-content-center mx-5 my-1'>
-                        <img src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/Horario.png?raw=true"
+                        <img alt="icono de un calendario con reloj" src="https://github.com/joseguti99/DB-IMG-PUBLIC/blob/main/higiene-seguridad-app/Horario.png?raw=true"
                             className='img-horario'/>
                         <h4 className='lic-hys my-3'>HORARIOS DE ATENCION</h4>
                         <p className='text-center fs-4 display-4'>Lunes a Viernes</p>

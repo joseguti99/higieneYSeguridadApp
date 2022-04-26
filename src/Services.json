@@ -3,36 +3,42 @@
         "Title": "Higiene y Seguridad",
         "description": "Asesoramiento y consultoría de Higiene y Seguridad laboral en industrias, comercios, instituciones privadas, públicas y aseguradoras de riesgos del trabajo (ART)",
         "logo": "https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/61b2f82cf6c039dab16969e69e40913ddf92e214/higiene-seguridad-app/worker.svg.svg",
-        "id": "0"
+        "id": "0",
+        "alt": "ilustracion de hombre con ropa de trabajo"
     },
     {
         "Title": "Formación y Capacitación",
         "description": "Contamos con profesionales habilitados en la materia, que brindarán soluciones de excelencia y determinarán capacitaciones, acordes a las necesidades de su empresa",
         "logo": "https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/8054d4731b513fd95270ef19cd1304c512c4de6e/higiene-seguridad-app/teacher-svgrepo-com.svg",
-        "id": "1"
+        "id": "1",
+        "alt": "ilustracion de un profecional brindando capacitaciones"
     },
     {
         "Title": "Gestión de Mediciones",
         "description": "Contamos con profesionales acreditados y una amplia gama de equipamiento e instrumentos de precisión de última tecnología, con certificación anual, que permitirán realizar los estudios que la legislación actual exige.",
         "logo": "https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/8054d4731b513fd95270ef19cd1304c512c4de6e/higiene-seguridad-app/gauge-svgrepo-com.svg",
-        "id": "2"
+        "id": "2",
+        "alt": "ilustracion de un medidor de ruidos"
     },
     {
         "Title": "Habilitación Municipal de Negocios",
         "description": "Brindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad.",
         "logo": "https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/8054d4731b513fd95270ef19cd1304c512c4de6e/higiene-seguridad-app/shop-svgrepo-com.svg",
-        "id": "3"
+        "id": "3",
+        "alt": "ilustracion de una tienda comercial"
     },
     {
         "Title": "Prevención de Incendios",
         "description": "Brindamos asesoramiento para la implementación en proyectos contra incendio.",
         "logo": "https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/8054d4731b513fd95270ef19cd1304c512c4de6e/higiene-seguridad-app/fire-extinguisher-svgrepo-com.svg",
-        "id": "4"
+        "id": "4",
+        "alt": "ilustracion de un extintor"
     },
     {
         "Title": "Servicios Especiales",
         "description": "Ofrecemos diferentes servicios especiales adaptados a las necesidades y requerimientos en los procesos de ingeniería.",
         "logo": "https://raw.githubusercontent.com/joseguti99/DB-IMG-PUBLIC/8054d4731b513fd95270ef19cd1304c512c4de6e/higiene-seguridad-app/services-svgrepo-com.svg",
-        "id": "5"
+        "id": "5",
+        "alt": "ilustracion de servicios adicionales"
     }
 ]
