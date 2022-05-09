@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vivianalozahys.com/static/css/main.56135ca5.css",
-    "main.js": "/vivianalozahys.com/static/js/main.3936ea7c.js",
-    "static/js/787.2c737169.chunk.js": "/vivianalozahys.com/static/js/787.2c737169.chunk.js",
-    "index.html": "/vivianalozahys.com/index.html",
-    "main.56135ca5.css.map": "/vivianalozahys.com/static/css/main.56135ca5.css.map",
-    "main.3936ea7c.js.map": "/vivianalozahys.com/static/js/main.3936ea7c.js.map",
-    "787.2c737169.chunk.js.map": "/vivianalozahys.com/static/js/787.2c737169.chunk.js.map"
+    "main.css": "/static/css/main.56135ca5.css",
+    "main.js": "/static/js/main.ddac817f.js",
+    "static/js/787.2c737169.chunk.js": "/static/js/787.2c737169.chunk.js",
+    "index.html": "/index.html",
+    "main.56135ca5.css.map": "/static/css/main.56135ca5.css.map",
+    "main.ddac817f.js.map": "/static/js/main.ddac817f.js.map",
+    "787.2c737169.chunk.js.map": "/static/js/787.2c737169.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56135ca5.css",
-    "static/js/main.3936ea7c.js"
+    "static/js/main.ddac817f.js"
   ]
 }
