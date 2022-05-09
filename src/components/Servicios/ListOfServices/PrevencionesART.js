@@ -9,7 +9,7 @@ const PrevencionesART = () => {
       <div className='container bg-white'>
         <div className='row justify-content-center'>
           <div className='col-12'>
-            <h1 className='prevencionesTitle'>Documentacion de ART</h1>
+            <h1 className='prevencionesTitle'>Documentación de ART</h1>
           </div>
           <div className='col-10 col-lg-12'>
               <p className='description-prevenciones'>Gestionamos la documentación de prevención de ART, brindamos los siguientes servicios: </p>

@@ -24,11 +24,11 @@ const Habilitaciones = () => {
                   <li className='li-hab'><AiOutlineLink className='icon-hab' /> Rubros y actividades del establecimiento o inmueble.</li>
                   <li className='li-hab'><AiOutlineLink className='icon-hab' /> Datos de identificación catastral o domicilio de realización de la actividad.</li>
                   <li className='li-hab'><AiOutlineLink className='icon-hab' /> Superficie en metros cuadrados del establecimiento a habilitar.</li>
-                  <li className='li-hab'><AiOutlineLink className='icon-hab' /> Información Personal: datos de los titulares de la actividad económica a habilitar</li>
+                  <li className='li-hab'><AiOutlineLink className='icon-hab' /> Información Personal: datos del o los titulares de la actividad económica a habilitar</li>
                 </ul>
               </div>
               <div className='col-11 col-lg-10 rounded bg-card my-5'>
-                <h4 className='SubTitle-Hab'>Solicitud De Habilitacion</h4>
+                <h4 className='SubTitle-Hab'>Solicitud de Habilitacion</h4>
                 <p className='description-habilitacion'>El trámite puede ser realizado por el/la
                   titular o representante designado/a, ingresando
                   con su usuario de CiDi a la plataforma de Vecino
@@ -36,7 +36,7 @@ const Habilitaciones = () => {
                   de Córdoba.</p>
               </div>
               <div className='col-11 col-lg-10 rounded bg-card my-5'>
-                <h5 className='SubTitle-Hab'>Pago De Tasas</h5>
+                <h5 className='SubTitle-Hab'>Pago de Tasas</h5>
                 <p className='description-habilitacion'>Una vez finalizada la gestión, el ente
                   municipal emite las tasas correspondientes,
                   el monto de la misma varía según la superficie
@@ -56,4 +56,4 @@ const Habilitaciones = () => {
       )
 }
 
-      export default Habilitaciones
+export default Habilitaciones

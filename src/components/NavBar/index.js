@@ -84,7 +84,7 @@ const NavBar = () => {
                     <BsFillPeopleFill className="mb-2" /> Servicios
                   </p>
                   <ul
-                    className="dropdown-menu bg-danger border border-danger"
+                    className="dropdown-menu bg-danger border border-danger mt-3"
                     aria-labelledby="dropdownMenuButton1"
                   >
                     {services.length ? (

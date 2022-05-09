@@ -9,7 +9,7 @@ const PlanesDeEvacuacion = () => {
       <div className='container-fluid bg-white'>
         <div className='row justify-content-center'>
           <div className='col-10 col-lg-10'>
-            <h1 className='evacuacionTitle'>Planes De Evacuacion</h1>
+            <h1 className='evacuacionTitle'>Planes de Evacuación</h1>
           </div>
           <div className='col-10 col-lg-10 mb-5'>
             <p className='description-evacuacion'>

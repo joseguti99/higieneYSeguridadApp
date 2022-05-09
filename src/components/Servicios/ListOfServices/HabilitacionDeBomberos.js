@@ -13,8 +13,8 @@ const HabilitacionDeBomberos = () => {
           </div>
           <div className='col-12'>
             <p className='description-habilitacionBomberos'>Gestionamos la obtención y/o renovación de habilitaciones 
-              en la Dirección de Bomberos de Córdoba. Lo asesoramos para 
-              que cumpla las normativas vigentes, logrando su habilitación 
+              en la Dirección de Bomberos de Córdoba. Asesoramos para 
+              el cumplimiento las normativas vigentes, para lograr su habilitación 
               correspondiente ante el organismo de control.</p>
           </div>
         </div>

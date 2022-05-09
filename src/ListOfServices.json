@@ -7,7 +7,7 @@
     },
     {
         "id": "1",
-        "title": "Habilitaciones Municipales",
+        "title": "Habilitaciónes Municipales",
         "description": "Contamos con servicio de Asesoramiento Para la Habilitación Municipal de Negocios El trámite se divide en tres partes: solicitud de informe de prefactibilidad, solicitud de habilitación y pago de tasas e impresión de certificado.",
         "route": "Habilitaciones"
     },
@@ -25,31 +25,31 @@
     },
     {
         "id": "4",
-        "title": "Planes de Evacuacion",
+        "title": "Planes de Evacuación",
         "description": "Brindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad. \nBrindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad.",
         "route": "Planes-de-Evacuacion"
     },
     {
         "id": "5",
-        "title": "Programa de Ergonomia",
+        "title": "Programa de Ergonomía",
         "description": "Brindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad. \nBrindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad.",
         "route": "Programa-de-Ergonomia"
     },
     {
         "id": "6",
-        "title": "Documentacion de ART",
+        "title": "Documentación de ART",
         "description": "Brindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad. \nBrindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad.",
         "route": "Prevenciones-de-ART"
     },
     {
         "id": "7",
-        "title": "Habilitacion de Bomberos",
+        "title": "Habilitación de Bomberos",
         "description": "Brindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad. \nBrindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad.",
         "route": "Habilitacion-de-Bomberos"
     },
     {
         "id": "8",
-        "title": "Medicion de Ruidos",
+        "title": "Medición de Ruidos",
         "description": "Brindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad. \nBrindamos asesoramiento para habilitaciones de negocios, industrias y comercios especiales bajo la nueva ordenanza municipal N° 12.052, conocida como “Ventanilla única”. Disponemos de profesionales certificados y colegiados para la obtención del Informe técnico de condiciones de higiene y seguridad.",
         "route": "Medicion-de-Ruidos"
     }
