@@ -61,7 +61,7 @@ const NavBar = () => {
           >
             <ul className="navbar-nav mb-2 mb-lg-0 mb-2 justify-content-end">
               <NavLink
-                to="/higieneYSeguridadApp"
+                to="/"
                 onClick={scrollTop}
                 className={({ isActive }) =>
                   isActive ? "activeNav" : "navbarLink"
