@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.56135ca5.css",
-    "main.js": "/static/js/main.ddac817f.js",
-    "static/js/787.2c737169.chunk.js": "/static/js/787.2c737169.chunk.js",
-    "index.html": "/index.html",
-    "main.56135ca5.css.map": "/static/css/main.56135ca5.css.map",
-    "main.ddac817f.js.map": "/static/js/main.ddac817f.js.map",
-    "787.2c737169.chunk.js.map": "/static/js/787.2c737169.chunk.js.map"
+    "main.css": "/higieneYSeguridadApp/static/css/main.56135ca5.css",
+    "main.js": "/higieneYSeguridadApp/static/js/main.1d271179.js",
+    "static/js/787.2c737169.chunk.js": "/higieneYSeguridadApp/static/js/787.2c737169.chunk.js",
+    "index.html": "/higieneYSeguridadApp/index.html",
+    "main.56135ca5.css.map": "/higieneYSeguridadApp/static/css/main.56135ca5.css.map",
+    "main.1d271179.js.map": "/higieneYSeguridadApp/static/js/main.1d271179.js.map",
+    "787.2c737169.chunk.js.map": "/higieneYSeguridadApp/static/js/787.2c737169.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56135ca5.css",
-    "static/js/main.ddac817f.js"
+    "static/js/main.1d271179.js"
   ]
 }
