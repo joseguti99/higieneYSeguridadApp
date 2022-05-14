@@ -19,7 +19,7 @@ import MedicionDeRuidos from './components/Servicios/ListOfServices/MedicionDeRu
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact={true} path="/" element={<Home/>} />
           <Route exact={true} path="/servicios/Informes-Tecnicos" element={<InformesHigieneYSeguridad/>}/>
