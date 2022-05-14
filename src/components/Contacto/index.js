@@ -8,7 +8,7 @@ import ListOfServices from ".././../ListOfServices.json"
 const Contacto = () => {
     return (
         <>
-            <div className='container-fluid bg-white shadow'>
+            <footer className='container-fluid bg-white shadow'>
                 <div className='row py-5 justify-content-center'>
                     <h1 className='text-center font-clients my-1'>Contacto</h1>
                     <div className='col-12 col-lg-3 mx-5 my-4'>
@@ -40,7 +40,7 @@ const Contacto = () => {
                         <p className='text-center h3 text-success'>8:00 - 19:00</p>
                     </div>
                 </div>
-            </div>
+            </footer>
         </>
     )
 }

@@ -40,7 +40,7 @@ const Home = () => {
       <div>
       </div>
       <div className='container-fluid bg-white shadow'>
-        <div className='row justify-content-center'>
+        <article className='row justify-content-center'>
           {DBservices.length
             ?
             DBservices.map((data, index) =>
@@ -51,7 +51,7 @@ const Home = () => {
               </div>)
             : console.log("Failed Map")
           }
-        </div>
+        </article>
       </div>
       <div className='container-fluid bg-space'></div>
       <div className='container-fluid ms-auto shadow'>
